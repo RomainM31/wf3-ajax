@@ -1,2 +1,16 @@
-# wf3-ajax
-Exercices from Ajax Course (WebForce 3 Toulouse dev school)
+# Ajax : exercices et support
+
+_Ce dépôt présente les éxercices effectués en module d'AJAX au sein de la formation Développeur Web chez WebForce3 Toulouse, avec le formateur [@sqyqh](https://github.com/sqyqh)._
+
+## Exercice 1
+
+
+## Support
+
+
+
+## Sitographie
+
+1. [Guide AJAX par Mozilla](https://developer.mozilla.org/fr/docs/Web/Guide/AJAX)
+2. [Unix. Pour aller plus loin avec la ligne de commandes](http://framabook.org/docs/Pour_aller_plus_loin_avec_la_ligne_de_commande/Pour_aller_plus_loin_avec_la_ligne_de_commande_art-libre.pdf
+)
