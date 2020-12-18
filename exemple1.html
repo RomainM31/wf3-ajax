@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous" defer>
+        </script>
+    <script src="function.js" defer></script>
     <title>Formulaire AJAX</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Formulaire AJAX</h1>
     <form action="" method="POST" role="form">
-    <ul>
-        <li><label for="name">Nom :</label></li>
-        <li><input type="text" id="name" name="name"></li>
-        <li><label for="firstname">Prénom :</label></li>
-        <li><input type="text" id="firstname" name="firstname"></li>
-        <li><label for="email">Adresse mail :</label></li>
-        <li><input type="text" id="firstname" name="firstname"></li>
-        <li><label for="message">Votre message :</label></li>
-        <li><textarea name="message" id="message" cols="30" rows="10"></textarea></li>
-        <li><input type="submit" value="Envoyer"></li>
-    </ul>
+        <ul>
+            <li><label for="lastname">Nom :</label></li>
+            <li><input type="text" id="lastname" name="lastname"></li>
+
+            <li><label for="firstname">Prénom :</label></li>
+            <li><input type="text" id="firstname" name="firstname"></li>
+
+            <li><label for="email">Adresse mail :</label></li>
+            <li><input type="email" id="email" name="email"></li>
+
+            <li><label for="message">Votre message :</label></li>
+            <li><textarea name="message" id="message" cols="30" rows="10"></textarea></li>
+
+            <li><input type="submit" value="Envoyer"></li>
+        </ul>
     </form>
 </body>
 </html>
